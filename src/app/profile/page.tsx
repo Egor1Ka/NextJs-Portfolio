@@ -1,5 +1,5 @@
 import { getServerSession } from 'next-auth';
-import { authConfig } from '../../../congigs/auth';
+import { authConfig } from '../../../configs/auth';
 import Image from 'next/image';
 
 const Profile = async () => {

@@ -26,7 +26,7 @@ export const authConfig = {
         },
       },
       async authorize(credentials) {
-        const users = [{ email: '', passwoer: '' }];
+        const users = [{ email: '', password: '' }];
         if (!credentials?.email || !credentials?.password) return null;
 
         const currentUser = users.find(
