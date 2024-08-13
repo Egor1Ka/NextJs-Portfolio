@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.dark body {
+  color:white;
+  background: black;
+}
+
+.light body {
+  color:black;
+  background: white;
+}
